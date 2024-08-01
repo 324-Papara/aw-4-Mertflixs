@@ -1,0 +1,227 @@
+2024-08-01 09:06:37.294 [INF] Application is starting...
+2024-08-01 09:06:37.621 [INF] Start installing Hangfire SQL objects...
+2024-08-01 09:06:38.944 [INF] Hangfire SQL objects installed.
+2024-08-01 09:06:39.253 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (), Changes: (Queue:default;Cron:*/5 * * * * *;TimeZoneId:UTC;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};CreatedAt:1722492399186;NextExecution:1722492400000;V:2)
+2024-08-01 09:06:39.399 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.100@pprDb'
+2024-08-01 09:06:39.400 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 09:06:39.400 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 09:06:39.404 [DBG] Execution loop BackgroundServerProcess:230b286c has started in 1.2084 ms
+2024-08-01 09:06:39.406 [VRB] Server mertflix-2:95166:702b0555 is announcing itself...
+2024-08-01 09:06:39.456 [INF] Server mertflix-2:95166:702b0555 successfully announced in 49.9054 ms
+2024-08-01 09:06:39.458 [DBG] Execution loop ServerHeartbeatProcess:ba80b571 has started in 0.817 ms
+2024-08-01 09:06:39.459 [INF] Server mertflix-2:95166:702b0555 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 09:06:39.460 [VRB] Server mertflix-2:95166:702b0555 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 09:06:39.461 [DBG] Execution loop ServerWatchdog:4e11eea6 has started in 0.5921 ms
+2024-08-01 09:06:39.461 [DBG] Execution loop ServerJobCancellationWatcher:5bbbbe49 has started in 0.225 ms
+2024-08-01 09:06:39.462 [VRB] Checking for aborted jobs...
+2024-08-01 09:06:39.463 [VRB] No newly aborted jobs found.
+2024-08-01 09:06:39.465 [DBG] Execution loop ExpirationManager:b9bed625 has started in 2.4063 ms
+2024-08-01 09:06:39.468 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 09:06:39.471 [DBG] Execution loop CountersAggregator:c1cee011 has started in 3.8299 ms
+2024-08-01 09:06:39.471 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 09:06:39.472 [DBG] Execution loop SqlServerHeartbeatProcess:9a086ea0 has started in 0.589 ms
+2024-08-01 09:06:39.473 [DBG] Execution loop Worker:c3851aa3 has started in 0.4572 ms
+2024-08-01 09:06:39.475 [DBG] Execution loop Worker:17d67454 has started in 2.061 ms
+2024-08-01 09:06:39.475 [DBG] Execution loop Worker:71c9bb22 has started in 2.6127 ms
+2024-08-01 09:06:39.476 [DBG] Execution loop Worker:c71af7a5 has started in 2.7555 ms
+2024-08-01 09:06:39.477 [DBG] Execution loop Worker:c67828ac has started in 4.1585 ms
+2024-08-01 09:06:39.478 [DBG] Execution loop Worker:0d573e15 has started in 5.2363 ms
+2024-08-01 09:06:39.478 [DBG] Execution loop Worker:f3443f27 has started in 5.6655 ms
+2024-08-01 09:06:39.478 [DBG] Execution loop Worker:03ec0a56 has started in 5.7677 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:c776fccf has started in 6.1422 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:f0f99039 has started in 6.252 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:680251da has started in 6.388 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:0e373750 has started in 6.6214 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:c39fa0a5 has started in 6.5563 ms
+2024-08-01 09:06:39.479 [DBG] Execution loop Worker:17a3c795 has started in 6.7621 ms
+2024-08-01 09:06:39.480 [DBG] Execution loop Worker:69262c69 has started in 6.917 ms
+2024-08-01 09:06:39.480 [DBG] Execution loop Worker:2ee66936 has started in 7.0566 ms
+2024-08-01 09:06:39.480 [DBG] Execution loop Worker:5a02c980 has started in 7.2087 ms
+2024-08-01 09:06:39.480 [DBG] Execution loop Worker:08434634 has started in 7.656 ms
+2024-08-01 09:06:39.481 [DBG] Execution loop Worker:e0ff9f2d has started in 7.9529 ms
+2024-08-01 09:06:39.481 [DBG] Execution loop Worker:85077942 has started in 8.2407 ms
+2024-08-01 09:06:39.482 [DBG] Execution loop DelayedJobScheduler:98deaae9 has started in 1.4562 ms
+2024-08-01 09:06:39.483 [INF] Server mertflix-2:95166:702b0555 all the dispatchers started
+2024-08-01 09:06:39.483 [DBG] Execution loop RecurringJobScheduler:1e827f70 has started in 0.1709 ms
+2024-08-01 09:06:39.527 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 09:06:39.527 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 09:06:39.569 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 09:06:39.582 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 09:06:39.582 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 09:06:39.591 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 09:06:39.591 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 09:06:39.599 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 09:06:39.599 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 09:06:39.608 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 09:06:44.464 [VRB] Checking for aborted jobs...
+2024-08-01 09:06:44.465 [VRB] No newly aborted jobs found.
+2024-08-01 09:06:49.466 [VRB] Checking for aborted jobs...
+2024-08-01 09:06:49.466 [VRB] No newly aborted jobs found.
+2024-08-01 09:06:54.467 [VRB] Checking for aborted jobs...
+2024-08-01 09:06:54.468 [VRB] No newly aborted jobs found.
+2024-08-01 09:06:54.717 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722492399186;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};NextExecution:1722492400000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722492414594;NextExecution:1722492415000;LastJobId:1)
+2024-08-01 09:06:54.780 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 09:06:59.469 [VRB] Checking for aborted jobs...
+2024-08-01 09:06:59.470 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:04.471 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:04.472 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:09.473 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:09.473 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:09.478 [DBG] Server mertflix-2:95166:702b0555 heartbeat successfully sent
+2024-08-01 09:07:09.478 [VRB] Server mertflix-2:95166:702b0555 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 09:07:09.809 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722492399186;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722492414594;LastJobId:1;NextExecution:1722492415000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722492429789;NextExecution:1722492430000;LastJobId:2)
+2024-08-01 09:07:09.839 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 09:07:14.475 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:14.475 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:19.476 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:19.477 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:24.478 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:24.479 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:24.865 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722492399186;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722492429789;LastJobId:2;NextExecution:1722492430000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722492444849;NextExecution:1722492445000;LastJobId:3)
+2024-08-01 09:07:24.894 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 09:07:29.480 [VRB] Checking for aborted jobs...
+2024-08-01 09:07:29.480 [VRB] No newly aborted jobs found.
+2024-08-01 09:07:34.373 [DBG] Hangfire Server is stopping...
+2024-08-01 09:07:34.375 [INF] Server mertflix-2:95166:702b0555 caught stopping signal...
+2024-08-01 09:07:34.377 [DBG] Execution loop CountersAggregator:c1cee011 stopped in 0 ms
+2024-08-01 09:07:34.381 [DBG] Execution loop Worker:85077942 stopped in 0.9503 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop SqlServerHeartbeatProcess:9a086ea0 stopped in 0 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop ExpirationManager:b9bed625 stopped in 0 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop ServerWatchdog:4e11eea6 stopped in 0 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop DelayedJobScheduler:98deaae9 stopped in 0 ms
+2024-08-01 09:07:34.378 [DBG] Execution loop Worker:0d573e15 stopped in 0 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop RecurringJobScheduler:1e827f70 stopped in 0 ms
+2024-08-01 09:07:34.377 [DBG] Execution loop ServerJobCancellationWatcher:5bbbbe49 stopped in 0 ms
+2024-08-01 09:07:34.379 [DBG] Execution loop Worker:c776fccf stopped in 0 ms
+2024-08-01 09:07:34.379 [DBG] Execution loop Worker:03ec0a56 stopped in 0 ms
+2024-08-01 09:07:34.383 [DBG] Execution loop Worker:c3851aa3 stopped in 2.6833 ms
+2024-08-01 09:07:34.379 [DBG] Execution loop Worker:680251da stopped in 0 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:71c9bb22 stopped in 0 ms
+2024-08-01 09:07:34.382 [DBG] Execution loop Worker:c67828ac stopped in 2.2569 ms
+2024-08-01 09:07:34.378 [DBG] Execution loop Worker:f0f99039 stopped in 0 ms
+2024-08-01 09:07:34.379 [DBG] Execution loop Worker:17d67454 stopped in 0 ms
+2024-08-01 09:07:34.378 [DBG] Execution loop Worker:f3443f27 stopped in 0 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:0e373750 stopped in 0 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:e0ff9f2d stopped in 0 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:17a3c795 stopped in 0 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:c39fa0a5 stopped in 0.0208 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:5a02c980 stopped in 0.3238 ms
+2024-08-01 09:07:34.380 [DBG] Execution loop Worker:08434634 stopped in 0.4602 ms
+2024-08-01 09:07:34.382 [DBG] Execution loop Worker:2ee66936 stopped in 2.4732 ms
+2024-08-01 09:07:34.397 [DBG] Execution loop Worker:c71af7a5 stopped in 17.3023 ms
+2024-08-01 09:07:34.381 [DBG] Execution loop Worker:69262c69 stopped in 0.8572 ms
+2024-08-01 09:07:34.398 [INF] Server mertflix-2:95166:702b0555 All dispatchers stopped
+2024-08-01 09:07:34.398 [DBG] Execution loop ServerHeartbeatProcess:ba80b571 stopped in 0.098 ms
+2024-08-01 09:07:34.400 [VRB] Server mertflix-2:95166:702b0555 is reporting itself as stopped...
+2024-08-01 09:07:34.411 [DBG] Hangfire Server is stopping...
+2024-08-01 09:07:34.459 [INF] Server mertflix-2:95166:702b0555 successfully reported itself as stopped in 58.6333 ms
+2024-08-01 09:07:34.460 [INF] Server mertflix-2:95166:702b0555 has been stopped in total 79.3978 ms
+2024-08-01 09:07:34.460 [DBG] Execution loop BackgroundServerProcess:230b286c stopped in 79.719 ms
+2024-08-01 09:09:17.973 [INF] Application is starting...
+2024-08-01 09:09:18.320 [INF] Start installing Hangfire SQL objects...
+2024-08-01 09:09:18.614 [INF] Hangfire SQL objects installed.
+2024-08-01 09:09:18.846 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.100@pprDb'
+2024-08-01 09:09:18.846 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 09:09:18.846 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 09:09:18.850 [DBG] Execution loop BackgroundServerProcess:c320b8bb has started in 0.9667 ms
+2024-08-01 09:09:18.851 [VRB] Server mertflix-2:96070:7a138a8b is announcing itself...
+2024-08-01 09:09:18.862 [INF] Server mertflix-2:96070:7a138a8b successfully announced in 10.7288 ms
+2024-08-01 09:09:18.863 [DBG] Execution loop ServerHeartbeatProcess:2788a4e9 has started in 0.4519 ms
+2024-08-01 09:09:18.863 [INF] Server mertflix-2:96070:7a138a8b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 09:09:18.863 [DBG] Execution loop ServerWatchdog:a79fb16a has started in 0.1267 ms
+2024-08-01 09:09:18.863 [DBG] Execution loop ServerJobCancellationWatcher:8f22c6ab has started in 0.107 ms
+2024-08-01 09:09:18.864 [DBG] Execution loop ExpirationManager:7cfc520b has started in 0.1066 ms
+2024-08-01 09:09:18.864 [DBG] Execution loop CountersAggregator:cb9c27f6 has started in 0.0585 ms
+2024-08-01 09:09:18.864 [DBG] Execution loop SqlServerHeartbeatProcess:04595652 has started in 0.1509 ms
+2024-08-01 09:09:18.864 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 09:09:18.864 [DBG] Execution loop Worker:d2a5130b has started in 0.1226 ms
+2024-08-01 09:09:18.864 [VRB] Server mertflix-2:96070:7a138a8b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 09:09:18.864 [VRB] Checking for aborted jobs...
+2024-08-01 09:09:18.864 [DBG] Execution loop Worker:ce52b155 has started in 0.2893 ms
+2024-08-01 09:09:18.864 [VRB] No newly aborted jobs found.
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:9230c2de has started in 0.5964 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:4085b8b4 has started in 0.7465 ms
+2024-08-01 09:09:18.865 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:84deda22 has started in 0.8765 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:74f5353b has started in 0.9898 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:c87f54a2 has started in 1.0893 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:bc36e77f has started in 1.2762 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:5c900083 has started in 1.3589 ms
+2024-08-01 09:09:18.865 [DBG] Execution loop Worker:54954ab3 has started in 1.4442 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:d8718599 has started in 1.6203 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:78fc014a has started in 1.7391 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:a06fcaaf has started in 1.8657 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:67687ce4 has started in 2.0522 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:a6564d50 has started in 2.2183 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:76232b6a has started in 2.3467 ms
+2024-08-01 09:09:18.866 [DBG] Execution loop Worker:97d65523 has started in 2.4959 ms
+2024-08-01 09:09:18.867 [DBG] Execution loop Worker:72e9b928 has started in 2.6564 ms
+2024-08-01 09:09:18.867 [DBG] Execution loop Worker:ae1c355e has started in 2.7779 ms
+2024-08-01 09:09:18.867 [DBG] Execution loop Worker:047c8f4b has started in 3.225 ms
+2024-08-01 09:09:18.868 [DBG] Execution loop DelayedJobScheduler:1faed708 has started in 0.4822 ms
+2024-08-01 09:09:18.868 [DBG] Execution loop RecurringJobScheduler:ee09ceb5 has started in 0.1449 ms
+2024-08-01 09:09:18.868 [INF] Server mertflix-2:96070:7a138a8b all the dispatchers started
+2024-08-01 09:09:18.918 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 09:09:18.921 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 09:09:18.921 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 09:09:18.966 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722492399186;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722492444849;LastJobId:3;NextExecution:1722492445000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722492558926;NextExecution:1722492560000;LastJobId:4)
+2024-08-01 09:09:18.973 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 09:09:18.974 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 09:09:18.979 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 09:09:18.979 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 09:09:18.983 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 09:09:18.983 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 09:09:18.988 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 09:09:19.012 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 09:09:23.866 [VRB] Checking for aborted jobs...
+2024-08-01 09:09:23.868 [VRB] No newly aborted jobs found.
+2024-08-01 09:09:28.869 [VRB] Checking for aborted jobs...
+2024-08-01 09:09:28.870 [VRB] No newly aborted jobs found.
+2024-08-01 09:09:33.871 [VRB] Checking for aborted jobs...
+2024-08-01 09:09:33.872 [VRB] No newly aborted jobs found.
+2024-08-01 09:09:34.039 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722492399186;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722492558926;LastJobId:4;NextExecution:1722492560000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722492574021;NextExecution:1722492575000;LastJobId:5)
+2024-08-01 09:09:34.072 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 09:09:35.543 [DBG] Hangfire Server is stopping...
+2024-08-01 09:09:35.546 [INF] Server mertflix-2:96070:7a138a8b caught stopping signal...
+2024-08-01 09:09:35.547 [DBG] Execution loop SqlServerHeartbeatProcess:04595652 stopped in 0 ms
+2024-08-01 09:09:35.547 [DBG] Execution loop CountersAggregator:cb9c27f6 stopped in 0 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop RecurringJobScheduler:ee09ceb5 stopped in 0 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop Worker:4085b8b4 stopped in 0 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop Worker:74f5353b stopped in 0 ms
+2024-08-01 09:09:35.549 [DBG] Execution loop Worker:ce52b155 stopped in 0.1736 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop Worker:84deda22 stopped in 0 ms
+2024-08-01 09:09:35.550 [DBG] Execution loop Worker:54954ab3 stopped in 0.6737 ms
+2024-08-01 09:09:35.550 [DBG] Execution loop Worker:a06fcaaf stopped in 0.9439 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop DelayedJobScheduler:1faed708 stopped in 0 ms
+2024-08-01 09:09:35.549 [DBG] Execution loop Worker:bc36e77f stopped in 0 ms
+2024-08-01 09:09:35.547 [DBG] Execution loop ExpirationManager:7cfc520b stopped in 0 ms
+2024-08-01 09:09:35.552 [DBG] Execution loop Worker:9230c2de stopped in 2.8295 ms
+2024-08-01 09:09:35.547 [DBG] Execution loop ServerJobCancellationWatcher:8f22c6ab stopped in 0 ms
+2024-08-01 09:09:35.553 [DBG] Execution loop Worker:d8718599 stopped in 3.8811 ms
+2024-08-01 09:09:35.553 [DBG] Execution loop Worker:67687ce4 stopped in 3.7949 ms
+2024-08-01 09:09:35.550 [DBG] Execution loop Worker:5c900083 stopped in 0.7147 ms
+2024-08-01 09:09:35.548 [DBG] Execution loop ServerWatchdog:a79fb16a stopped in 0 ms
+2024-08-01 09:09:35.552 [DBG] Execution loop Worker:78fc014a stopped in 2.9801 ms
+2024-08-01 09:09:35.555 [DBG] Execution loop Worker:a6564d50 stopped in 6.2122 ms
+2024-08-01 09:09:35.556 [DBG] Execution loop Worker:ae1c355e stopped in 6.2644 ms
+2024-08-01 09:09:35.556 [DBG] Execution loop Worker:76232b6a stopped in 4.4068 ms
+2024-08-01 09:09:35.556 [DBG] Execution loop Worker:97d65523 stopped in 6.6922 ms
+2024-08-01 09:09:35.556 [DBG] Execution loop Worker:047c8f4b stopped in 7.1515 ms
+2024-08-01 09:09:35.557 [DBG] Execution loop Worker:72e9b928 stopped in 7.7947 ms
+2024-08-01 09:09:35.558 [DBG] Execution loop Worker:c87f54a2 stopped in 9.1388 ms
+2024-08-01 09:09:35.559 [DBG] Execution loop Worker:d2a5130b stopped in 9.6423 ms
+2024-08-01 09:09:35.559 [INF] Server mertflix-2:96070:7a138a8b All dispatchers stopped
+2024-08-01 09:09:35.559 [DBG] Execution loop ServerHeartbeatProcess:2788a4e9 stopped in 0 ms
+2024-08-01 09:09:35.562 [VRB] Server mertflix-2:96070:7a138a8b is reporting itself as stopped...
+2024-08-01 09:09:35.578 [INF] Server mertflix-2:96070:7a138a8b successfully reported itself as stopped in 15.4127 ms
+2024-08-01 09:09:35.579 [INF] Server mertflix-2:96070:7a138a8b has been stopped in total 29.3525 ms
+2024-08-01 09:09:35.579 [DBG] Execution loop BackgroundServerProcess:c320b8bb stopped in 29.556 ms
+2024-08-01 09:09:35.580 [DBG] Hangfire Server is stopping...
