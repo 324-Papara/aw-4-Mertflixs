@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HebLwnjd57k=",
+  "dgSpecHash": "eph8eM1Ypg8=",
   "success": true,
-  "projectFilePath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
+  "projectFilePath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
   "expectedPackageFiles": [
     "/Users/mertflix/.nuget/packages/entityframework/6.3.0/entityframework.6.3.0.nupkg.sha512",
     "/Users/mertflix/.nuget/packages/linqkit/1.2.4/linqkit.1.2.4.nupkg.sha512",
@@ -60,7 +60,9 @@
     "/Users/mertflix/.nuget/packages/system.text.encoding.extensions/4.0.11/system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "/Users/mertflix/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512",
     "/Users/mertflix/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
-    "/Users/mertflix/.nuget/packages/system.windows.extensions/4.6.0/system.windows.extensions.4.6.0.nupkg.sha512"
+    "/Users/mertflix/.nuget/packages/system.windows.extensions/4.6.0/system.windows.extensions.4.6.0.nupkg.sha512",
+    "/Users/mertflix/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/mertflix/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

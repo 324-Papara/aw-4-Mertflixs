@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {}
+    "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {}
   },
   "projects": {
-    "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
+    "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
+        "projectUniqueName": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
         "projectName": "Para.Base",
-        "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
+        "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj",
         "packagesPath": "/Users/mertflix/.nuget/packages/",
-        "outputPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/obj/",
+        "outputPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mertflix/.nuget/NuGet/NuGet.Config"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -75,23 +76,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {
+    "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
+        "projectUniqueName": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
         "projectName": "Para.Bussiness",
-        "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
+        "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Bussiness/Para.Bussiness.csproj",
         "packagesPath": "/Users/mertflix/.nuget/packages/",
-        "outputPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Bussiness/obj/",
+        "outputPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Bussiness/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mertflix/.nuget/NuGet/NuGet.Config"
@@ -106,11 +117,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj": {
-                "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj"
+              "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj": {
+                "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj"
               },
-              "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj": {
-                "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj"
+              "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj": {
+                "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj"
               }
             }
           }
@@ -124,7 +135,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -170,23 +182,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj": {
+    "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj",
+        "projectUniqueName": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj",
         "projectName": "Para.Data",
-        "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj",
+        "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/Para.Data.csproj",
         "packagesPath": "/Users/mertflix/.nuget/packages/",
-        "outputPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Data/obj/",
+        "outputPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mertflix/.nuget/NuGet/NuGet.Config"
@@ -201,8 +223,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
-                "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj"
+              "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
+                "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj"
               }
             }
           }
@@ -216,7 +238,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -254,23 +277,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj": {
+    "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj",
+        "projectUniqueName": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj",
         "projectName": "Para.Schema",
-        "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj",
+        "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/Para.Schema.csproj",
         "packagesPath": "/Users/mertflix/.nuget/packages/",
-        "outputPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Schema/obj/",
+        "outputPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Schema/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mertflix/.nuget/NuGet/NuGet.Config"
@@ -285,8 +318,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
-                "projectPath": "/Users/mertflix/Desktop/ppr-bootcamp/week-5/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj"
+              "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj": {
+                "projectPath": "/Users/mertflix/Desktop/aw-4-Mertflixs/Para.Api/Para.Base/Para.Base.csproj"
               }
             }
           }
@@ -300,7 +333,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -322,12 +356,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
